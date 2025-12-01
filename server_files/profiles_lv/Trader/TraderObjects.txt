@@ -1,0 +1,155 @@
+// ------------------------------------------------------ Trader Markers -------------------------------------------------------
+// You should have one safezone per area only. Preferrably your most central trader.
+// Every trader requires `<TraderMarkerSafezone> 0` for all markers even if they don't have a safezone. Safezone 0 or less will not be created.
+// TraderMarkerPosition coordinates must  match 100% ObjectPosition of the Trader (NPC or static)
+// Use this file to spawn your vendors only. Don't use it to create trader areas. It can be used but it's not a good tool for doing so.
+// Don't use other tools to spawn your vendors as it won't work.
+
+// Green Mountain:
+
+//----------------------------------------------------------- | These are here just for visual delimitation in this file.
+//Consumables Trader
+//<TraderMarker> 			0 									// Trader ID
+//<TraderMarkerPosition>	3699.27, 402.13, 5967.91 			// Coordinate X, 	Coordinate Y, 	Coordinate Z
+//<TraderMarkerSafezone>	0	
+								// Safezone Radius
+//<Object> 			SurvivorF_Irena							// Classname
+//<ObjectPosition>		3699.27, 402.13, 5967.91		// Coordinate X, 	Coordinate Y, 	Coordinate Z (Must match TraderMarkerPosition)
+//<ObjectOrientation>		-13.234265, 0,			0			// Yaw, 			Pitch, 			Roll
+//<ObjectAttachment>	NPC_DUMMY							// Add this if you are using an non Character Object for an Trader (like Vending Machines, etc.). It is needed to make the User Action for the Trading Menu work.
+//<ObjectAttachment>	BoxCerealCrunchin						// Add an Item to the Traders Inventory;
+//<ObjectAttachment>	SurgicalGloves_White
+//<ObjectAttachment>	Bandana_Polkapattern
+//<ObjectAttachment>	MiniDress_PinkChecker
+//<ObjectAttachment>	DressShoes_White
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Handlarz
+<TraderMarker> 			1
+<TraderMarkerPosition>	7299.40,     288.074,     2573.35
+<TraderMarkerSafezone>	0
+
+<Object> 			SurvivorF_Keiko
+<ObjectPosition>	7299.40,    288.074,     2573.35
+<ObjectOrientation>	0, 0,			0
+<ObjectAttachment>	WorkingGloves_Beige
+<ObjectAttachment>	Sweater_Blue
+<ObjectAttachment>	CargoPants_Grey
+<ObjectAttachment>	WorkingBoots_Grey
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Rusznikarz
+<TraderMarker> 			2
+<TraderMarkerPosition>	7314.8,    288,    2620.6
+<TraderMarkerSafezone>	0
+
+<Object> 			SurvivorM_Mirek
+<ObjectPosition>	7314.8,     288,    2620.6
+<ObjectOrientation>	140, 0,			0
+<ObjectAttachment>	BaseballCap_CMMG_Black
+<ObjectAttachment>	BomberJacket_Olive
+<ObjectAttachment>	CargoPants_Beige
+<ObjectAttachment>	MilitaryBoots_Black
+
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Medyk
+<TraderMarker> 			3
+<TraderMarkerPosition>	7318.6,    288,    2574.32
+<TraderMarkerSafezone>	0
+
+
+<Object> 			SurvivorM_Quinn
+<ObjectPosition>	7318.6,    288,    2574.32
+<ObjectOrientation>	155, 0,			0
+<ObjectAttachment>	MedicalScrubsHat_White
+<ObjectAttachment>	MedicalScrubsPants_Blue
+<ObjectAttachment>	MedicalScrubsShirt_Blue
+<ObjectAttachment>	CanvasBag_Medical
+<ObjectAttachment>	HipPack_Medical
+<ObjectAttachment>	SurgicalGloves_Blue
+<ObjectAttachment>	SurgicalMask
+<ObjectAttachment>	NBCBootsGray
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Straznik
+<TraderMarker> 			4
+<TraderMarkerPosition>	7318.7,    293.985657,    2617.1
+<TraderMarkerSafezone>	0
+
+<Object> 			SurvivorM_Boris
+<ObjectPosition>	7318.7,    293.985657,    2617.1
+<ObjectOrientation>	140, 0,			0
+<ObjectAttachment>	MilitaryBeret_CDF
+<ObjectAttachment>	TTsKOJacket_Camo
+<ObjectAttachment>	TTSKOPants
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	BalaclavaMask_Green
+<ObjectAttachment>	BallisticHelmet_Green
+<ObjectAttachment>	Mp133Shotgun
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//HQ
+<TraderMarker> 			4
+<TraderMarkerPosition>	7314.5,    290.5,    2620
+<TraderMarkerSafezone>	0
+
+<Object> 			SurvivorM_Peter
+<ObjectPosition>	7314.5,     290.5,    2620
+<ObjectOrientation>	340, 0,			0
+<ObjectAttachment>	AviatorGlasses
+<ObjectAttachment>	TacticalShirt_Tan
+<ObjectAttachment>	CargoPants_Green
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	MilitaryBelt
+<ObjectAttachment>	PlateCarrierHolster_Green
+<ObjectAttachment>	Glock19
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Driver
+//<TraderMarker> 			5
+//<TraderMarkerPosition>	7345.2,    287.1,   2621.6
+//<TraderMarkerSafezone>	0
+
+//<Object> 			SurvivorM_Cyril
+//<ObjectPosition>	7345.2,    287.1,   2621.6
+//<ObjectOrientation>	120, 0,			0
+//<ObjectAttachment>	BaseballCap_Red
+//<ObjectAttachment>	Shirt_RedCheck
+//<ObjectAttachment>	Jeans_BlueDark
+//<ObjectAttachment>	Sneakers_Red
+//<ObjectAttachment>	ReflexVest
+//<ObjectAttachment>	DesignerGlasses
+//<ObjectAttachment>	WoolGlovesFingerless_ChristmasRed
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Mechanik
+<TraderMarker> 			6
+<TraderMarkerPosition>	7308.05,	287.2,	2614.04
+<TraderMarkerSafezone>	120
+<VehicleSpawn>			7300.3,	287.2	, 2608.2		// Vehicle Spawnpoint for Trader; Use only for vehicle traders
+<VehicleSpawnOri>		140,		0,			0			// Vehicle Spawnpoint Orientation; Use only for vehicle traders
+
+<Object> 			SurvivorM_Niki
+<ObjectPosition>	7308.05,	287.2,	2614.04
+<ObjectOrientation>	150, 0,			0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	ReflexVest
+<ObjectAttachment>	JumpsuitJacket_Blue
+<ObjectAttachment>	JumpsuitPants_Blue
+<ObjectAttachment>	WorkingBoots_Brown
+<ObjectAttachment>	SportGlasses_Black
+<ObjectAttachment>	BaseballCap_Blue
+//-----------------------------------------------------------
+
+
+//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
+<FileEnd>												// This has to be on the End of this File and is very importand!

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+    <!-- WELCOME ON CONNECT: three messages one after another -->
+    <message>
+        <delay>0</delay>
+        <onconnect>1</onconnect>
+        <text>Welcome to #name  Have a great time!</text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <onconnect>1</onconnect>
+        <text>Server restarts: 02:00 / 08:00 / 16:00 / 20:00 (every 6 hours)</text>
+    </message>
+
+    <!-- GLOBAL INFO EVERY 30 MIN -->
+    <message>
+        <repeat>30</repeat>
+        <text>[INFO] Scheduled restarts: 02:00, 08:00, 16:00, 20:00 CET/CEST.</text>
+    </message>
+
+    <!-- 6H COUNTDOWN + SHUTDOWN -->
+    <!-- deadline=360 means: shutdown 6 hours after server start; DayZ will show this in countdown mode with #tmin -->
+    <message>
+        <deadline>360</deadline>
+        <shutdown>1</shutdown>
+        <text>[RESTART] #name will restart in #tmin minutes. Please secure your gear and log out safely.</text>
+    </message>
+</messages>
