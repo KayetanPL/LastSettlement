@@ -60,50 +60,6 @@ void main()
 	
 	// -- Wczytaj obiekty
 
-// Kayetan Colin_MCREJ
-SpawnObject("StaticObj_Wall_PipeFenceWall_8", "7690.096191 280.877716 2352.544434", "35.999985 -0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Wall_PipeFence_8", "7693.743652 280.383209 2359.401123", "45.000000 -0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7482.718262 287.741669 2490.014648", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7486.495117 287.040009 2491.435303", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Wall_Railing_1_Pole", "7696.264648 280.453308 2354.750977", "0.000000 -0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7490.601563 287.039978 2492.675781", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7495.334961 287.040039 2493.966553", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Wall_Railing_1_Pole", "7693.861816 280.524597 2351.597168", "0.000000 -0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7559.682129 286.998535 2518.048828", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("StaticObj_FueldStation_Shed", "7700.567871 283.213379 2353.504395", "125.999908 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7554.110840 287.040009 2519.193604", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("dz/structures/military/improvised/roadblock_cncblocks_long.p3d", "8102.794922 268.137268 1754.955566", "-0.314159 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7549.401367 287.039978 2520.527832", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7800.395020 352.978790 1157.975586", "-135.000092 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7545.829590 287.040009 2520.882080", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7797.775879 352.777222 1158.447144", "-143.999939 0.000000 -0.000000", 1);
-SpawnObject("dz/structures/signs/billboards/bilboard_notacola.p3d", "7699.781250 282.796692 2359.981689", "2.042035 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7543.545410 287.040009 2521.191162", "-0.000120 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7795.311523 352.661560 1160.200806", "-124.466820 0.000000 -0.000000", 0.999984);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7789.665039 280.690063 2271.214600", "143.999893 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7793.520020 352.623566 1162.201050", "-116.999962 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7785.741699 280.690033 2278.442139", "134.999908 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Long", "7872.194336 275.485291 1914.018311", "-9.000000 0.000000 0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7792.171875 352.128235 1164.880371", "-124.466820 0.000000 -0.000000", 0.999984);
-SpawnObject("StaticObj_Roadblock_Wood_Long", "7875.917969 275.456055 1914.370972", "0.000000 -0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7791.248535 352.259277 1167.354370", "-124.466820 0.000000 -0.000000", 0.999984);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "8108.911621 268.827271 1762.100098", "135.000000 0.000000 -0.000000", 1);
-SpawnObject("dz/structures/military/improvised/roadblock_cncblocks_long.p3d", "6909.460449 442.954559 919.784241", "1.413716 -0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Long", "7881.107422 275.318329 1914.119141", "0.000000 -0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_CncBlocks_Long", "6560.870605 387.689240 1458.427490", "-144.000000 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_CncBlocks_Long", "6564.170898 387.553101 1462.477295", "-135.000000 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "8109.940430 269.214569 1766.694214", "135.000000 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7382.778320 358.099274 1962.888184", "-108.000015 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7395.791992 356.505310 1968.547974", "-108.000046 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7434.448242 352.321472 1994.060669", "-108.000046 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7418.499023 352.537292 1979.681519", "-108.000046 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "8110.403320 269.520477 1770.675049", "135.000000 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7428.974121 352.246887 1986.551880", "-108.000046 0.000000 -0.000000", 1);
-SpawnObject("dz/structures/military/improvised/roadblock_cncblocks_long.p3d", "6904.371094 442.838898 918.887390", "1.413717 -0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7432.431152 352.024994 1989.285034", "-108.000046 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "7434.401855 352.175110 1992.186890", "-108.000046 0.000000 -0.000000", 1);
-SpawnObject("StaticObj_Roadblock_Wood_Small", "8108.425293 268.654358 1755.049683", "135.000000 0.000000 -0.000000", 1);	
-
 	// OFFROAD FUN
 //SpawnObject("StaticObj_Rail_Crossing_Block_25", "6965.759766 400.531036 1742.112183", "74.502174 -15.000000 0.000001", 0.999944);
 //SpawnObject("StaticObj_Rail_Crossing_Block_25", "6966.587891 400.540283 1739.277954", "74.502174 -15.000000 0.000001", 0.99997);
@@ -283,7 +239,39 @@ SpawnObject("StaticObj_Roadblock_Wood_Small", "8108.425293 268.654358 1755.04968
 		SpawnObject("StaticObj_Furniture_radio_b", "7316.645020 288.240234 2619.994629", "-110.617210 0.000000 -0.000000", 0.99998);
 		SpawnObject("StaticObj_Furniture_office_chair", "7318.374512 287.750854 2618.490723", "-43.199963 0.000000 0.000000", 1);
 		SpawnObject("StaticObj_Furniture_metalcrate", "7313.755371 288.022186 2621.338867", "44.999989 -0.000000 -0.000000", 0.6);
-	
+
+		// HQ_Quest
+
+		SpawnObject("Industrial_Fluoresent_Light", "7315.250000 293.352997 2625.659912", "-42.999897 0.000000 0.000000", 1);
+		SpawnObject("StaticObj_Furniture_school_map", "7310.772949 292.588470 2622.031738", "-131.999374 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Misc_Chair_Camp2", "7311.435547 290.933716 2621.749268", "-132.999420 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Misc_Chair_Camp2", "7311.022949 290.933716 2622.192871", "-132.000000 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Misc_Chair_Camp2", "7310.647949 290.933716 2622.758545", "-120.999886 0.000000 -0.000000", 1);
+		SpawnObject("Land_Radio_PanelPAS", "7314.766113 290.471008 2618.274170", "136.865005 0.000000 -0.000000", 0.99998);
+		SpawnObject("StaticObj_Furniture_school_map", "7313.329590 292.166077 2619.225342", "47.999844 0.000000 0.000000", 1);
+		SpawnObject("StaticObj_Misc_SupplyBox2_DE", "7321.352051 291.369110 2618.129639", "-48.099895 0.000000 0.000000", 1);
+		SpawnObject("Land_Roadblock_Table", "7314.325195 290.793182 2620.794434", "-42.999920 0.000000 0.000000", 1);
+		SpawnObject("StaticObj_Furniture_radar_rack_quad", "7317.888672 290.429413 2617.413086", "-180.000000 0.000000 -0.000000", 0);
+		SpawnObject("Industrial_Fluoresent_Light", "7318.674805 293.078796 2621.142578", "-46.999928 0.000000 0.000000", 1);
+		SpawnObject("StaticObj_Furniture_sofa_leather_old", "7319.764160 290.880005 2616.655273", "-44.999916 0.000000 0.000000", 1);
+		SpawnObject("StaticObj_Furniture_radar_panel", "7319.854004 290.471405 2621.050781", "49.558994 0.000000 -0.000000", 0.999967);
+		SpawnObject("StaticObj_Furniture_pc", "7314.730957 291.193298 2621.213867", "-132.393127 0.000000 -0.000000", 0.999966);
+		SpawnObject("StaticObj_Furniture_radio_b", "7316.061035 291.714294 2621.819580", "-134.999908 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Furniture_phonebox", "7312.613281 290.471375 2620.678711", "-131.988007 0.000000 -0.000000", 0.999955);
+		SpawnObject("StaticObj_Furniture_ch_mod_c", "7313.874512 290.472015 2622.439453", "-24.904011 0.000000 0.000000", 0.999988);
+		SpawnObject("StaticObj_Furniture_medical_table", "7314.717773 290.408844 2622.265137", "-153.000076 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Furniture_radar_rack_quad", "7317.802246 290.471405 2617.653076", "133.899994 0.000000 -0.000000", 1);
+		SpawnObject("dz/structures/furniture/radar_equipment/radar_panel_flat.p3d", "7315.667480 290.471405 2617.374756", "-2.356196 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Furniture_canister_DZ", "7318.919922 290.835754 2618.473877", "-44.999992 0.000000 0.000000", 1);
+		SpawnObject("StaticObj_Furniture_drapes_long", "7321.160156 292.088013 2617.332031", "137.299988 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Furniture_drapes_long", "7319.003418 292.068390 2615.401367", "137.299973 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Furniture_intercom_speaker", "7314.373535 292.376160 2618.086914", "-135.000046 0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Furniture_school_clock", "7316.299805 292.636871 2621.787598", "44.999992 0.000000 -0.000000", 1);
+		SpawnObject("dz/structures/furniture/school_equipment/flag_chernarus_pole.p3d", "7321.906738 291.727997 2617.971680", "0.841249 0.000000 -0.000000", 1);
+		SpawnObject("Flaming_Candle_WithLight", "7315.030273 291.425354 2622.056396", "0.000000 -0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Furniture_tv_a", "7320.624512 291.180511 2619.794434", "44.999981 -0.000000 -0.000000", 1);
+		SpawnObject("StaticObj_Misc_SupplyBox1_DE", "7318.184570 291.010437 2621.900146", "44.999992 0.000000 -0.000000", 1);
+		
 		// HQ_Roof_Guard
 		
 		SpawnObject("StaticObj_Misc_Antenna", "7313.287109 297.405670 2623.927979", "53.999973 0.000000 -0.000000", 1);
@@ -291,7 +279,6 @@ SpawnObject("StaticObj_Roadblock_Wood_Small", "8108.425293 268.654358 1755.04968
 		SpawnObject("StaticObj_Roadblock_Pillbox", "7317.208984 295.036774 2619.315186", "-133.635742 -0.000001 0.000001", 1);
 		SpawnObject("Land_Mil_Fortified_Nest_Small", "7318.711426 295.273773 2617.754639", "-43.526279 0.000000 0.000000", 0.99998);
 		SpawnObject("Flaming_Candle_WithLight", "7316.822266 293.985657 2619.691895", "0.000000 -0.000000 -0.000000", 1);		
-		
 		
 		// Car_Mechanic
 		
@@ -2718,4 +2705,5 @@ Mission CreateCustomMission(string path)
 {
 	return new CustomMission();
 }
+
 
